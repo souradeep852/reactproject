@@ -1,5 +1,27 @@
-.main{
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
+.icon-priority{
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  gap: 1.5rem;
+  justify-content: start;
+  align-items: center;
+}
+
+.users-list-count{
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
 }
 
 /* Display button container */
@@ -101,6 +123,7 @@
   flex-wrap: nowrap; /* Prevent wrapping to a new row */
   overflow-x: auto; /* Add horizontal scrolling if needed */
   white-space: nowrap; /* Prevent text wrapping within the container */
+  padding: 1rem;
 }
 
 .card_ID{
